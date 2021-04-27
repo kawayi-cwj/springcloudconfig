@@ -1,16 +1,16 @@
 spring:
-    profiles:
-       active:
-       -dev
+  profiles:
+    active:
+    - dev
 ---
 spring:
-   profiles: dev        # 开发环境
-   application:
-       name: springcloudconfig-dev     
+  profiles: dev        # 开发环境
+  application:
+    name: springcloudconfig-dev     
 ---
 spring:
-   profiles: uat        # 测试环境
-   application:
-       name: springcloudconfig-uat     
+  profiles: uat        # 测试环境
+  application:
+    name: springcloudconfig-uat     
 # 一定要保存为utf-8的格式
  
